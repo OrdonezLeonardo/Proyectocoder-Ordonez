@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a {
+    font-size: 20px;
+    margin:10px;
+   
+ 
+ }
+ p {
+    text-align: center;
+  
+ }
+
+h1 {
+    background-color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifw;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+html, body, #root {
+    height:  100%;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+Header {
+    background-color:lightblue;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+ h2 {
+    background-color: lightblue;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+
+ }
+
+main {
+   flex-grow: 1;
+   padding:  1rem;
+   
+
+
+}
+footer {
+    background-color:  lightblue;
+    padding: 1 rem;
+    text-align: center;
+    height: 100px;
+    }
+ span {
+    margin:auto;
+
+ }
